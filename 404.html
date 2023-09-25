@@ -41,21 +41,46 @@
     <!-- Spinner End -->
 
 
-   <!-- Navbar Start -->
-   <?php
-   include('header.php');
-   ?>
-   <!-- Navbar End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="mb-0 text-primary text-uppercase"><i class="fa fa-cut me-3"></i>HairCut</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                        <a href="team.html" class="dropdown-item">Our Barber</a>
+                        <a href="open.html" class="dropdown-item">Working Hours</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item active">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary rounded-0 py-2 px-lg-4 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-3 text-white text-uppercase mb-3 animated slideInDown">Working Hours</h1>
+            <h1 class="display-3 text-white text-uppercase mb-3 animated slideInDown">404 Error</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center text-uppercase mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Working Hours</li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">404</li>
                 </ol>
             </nav>
         </div>
@@ -63,52 +88,22 @@
     <!-- Page Header End -->
 
 
-    <!-- Working Hours Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-0">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="h-100">
-                        <img class="img-fluid h-100" src="img/open.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-secondary h-100 d-flex flex-column justify-content-center p-5">
-                        <p class="d-inline-flex bg-dark text-primary py-1 px-4 me-auto">Working Hours</p>
-                        <h1 class="text-uppercase mb-4">Professional Barbers Are Waiting For You</h1>
-                        <div>
-                            <div class="d-flex justify-content-between border-bottom py-2">
-                                <h6 class="text-uppercase mb-0">Monday</h6>
-                                <span class="text-uppercase">09 AM - 09 PM</span>
-                            </div>
-                            <div class="d-flex justify-content-between border-bottom py-2">
-                                <h6 class="text-uppercase mb-0">Tuesday</h6>
-                                <span class="text-uppercase">09 AM - 09 PM</span>
-                            </div>
-                            <div class="d-flex justify-content-between border-bottom py-2">
-                                <h6 class="text-uppercase mb-0">Wednesday</h6>
-                                <span class="text-uppercase">09 AM - 09 PM</span>
-                            </div>
-                            <div class="d-flex justify-content-between border-bottom py-2">
-                                <h6 class="text-uppercase mb-0">Thursday</h6>
-                                <span class="text-uppercase">09 AM - 09 PM</span>
-                            </div>
-                            <div class="d-flex justify-content-between border-bottom py-2">
-                                <h6 class="text-uppercase mb-0">Friday</h6>
-                                <span class="text-uppercase">09 AM - 09 PM</span>
-                            </div>
-                            <div class="d-flex justify-content-between py-2">
-                                <h6 class="text-uppercase mb-0">Sat / Sun</h6>
-                                <span class="text-uppercase text-primary">Closed</span>
-                            </div>
-                        </div>
-                    </div>
+    <!-- 404 Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
+                    <h1 class="display-1">404</h1>
+                    <h1 class="mb-4">Page Not Found</h1>
+                    <p class="mb-4">We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
+                    <a class="btn btn-primary py-3 px-5" href="">Go Back To Home</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Working Hours End -->
-
+    <!-- 404 End -->
+        
 
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -160,15 +155,13 @@
         </div>
         <div class="container">
             <div class="copyright">
-                <div class="container">
-                    <div class="copyright">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                &copy; DESIGNED BY <a href="mailto:hannanhaider559@gmail.com"><b>ABDUL HANNAN</b></a>
-                        </div>
-                    </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        &copy; DESIGNED BY <a href="mailto:hannanhaider559@gmail.com"><b>ABDUL HANNAN</b></a>
                 </div>
             </div>
+        </div>
+    </div>
     <!-- Footer End -->
 
 
